@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GENIE — Streetwear Sénégal</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- =========================
+     NAVIGATION
+========================= -->
+
+<header class="header">
+
+    <div class="logo">
+        GENIE<span>.</span>
+    </div>
+
+    <nav>
+        <a href="#accueil">Accueil</a>
+        <a href="#creations">Créations</a>
+        <a href="#articles">Articles</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <a class="nav-btn" href="#articles">
+        Shop
+    </a>
+
+</header>
+
+
+<!-- =========================
+     HERO
+========================= -->
+
+<section class="hero" id="accueil">
+
+    <div class="hero-image">
+        <img src="images/genie-banner.jpg" alt="GENIE Streetwear">
+    </div>
+
+    <div class="hero-content">
+
+        <p class="small-title">
+            STREETWEAR • SENEGAL
+        </p>
+
+        <h1>
+            GENIE
+        </h1>
+
+        <p>
+            L'attitude. La culture. La rue.
+            <br>
+            Porte ton identité.
+        </p>
+
+        <a href="#articles" class="main-btn">
+            Découvrir la collection
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     CREATIONS
+========================= -->
+
+<section class="creations" id="creations">
+
+    <div class="section-title">
+
+        <p>
+            NOTRE UNIVERS
+        </p>
+
+        <h2>
+            Nos créations
+        </h2>
+
+    </div>
+
+
+    <div class="creation-grid">
+
+        <div class="creation-card large">
+
+            <img
+                src="image/WhatsApp Image 2026-08-14 at 05.07.48.jpeg"
+                alt="Création GENIE"
+            >
+
+            <div class="overlay">
+
+                <span>
+                    GENIE COLLECTION
+                </span>
+
+                <h3>
+                    Made in Senegal
+                </h3>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     ARTICLES
+========================= -->
+
+<section class="shop" id="articles">
+
+    <div class="section-title">
+
+        <p>
+            SHOP
+        </p>
+
+        <h2>
+            La collection
+        </h2>
+
+    </div>
+
+
+    <div class="products">
+
+
+        <!-- =====================
+             PRODUIT 1 - BLACK
+        ====================== -->
+
+        <article class="product">
+
+            <div class="product-image">
+
+                <span class="badge">
+                    NEW
+                </span>
+
+                <img
+                    src="image/noir.jpeg"
+                    alt="GENIE Black T-Shirt"
+                >
+
+            </div>
+
+
+            <div class="product-info">
+
+                <p class="category">
+                    T-SHIRT
+                </p>
+
+                <h3>
+                    GENIE BLACK
+                </h3>
+
+                <p class="description">
+                    T-shirt en coton premium.
+                </p>
+
+
+                <!-- TAILLES -->
+
+                <p class="size-title">
+                    Choisir une taille :
+                </p>
+
+                <div class="sizes">
+
+                    <label>
+                        <input type="radio" name="size-black" value="S">
+                        <span>S</span>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="size-black" value="M">
+                        <span>M</span>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="size-black" value="L">
+                        <span>L</span>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="size-black" value="XL">
+                        <span>XL</span>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="size-black" value="XXL">
+                        <span>XXL</span>
+                    </label>
+
+                </div>
+
+
+                <div class="product-bottom">
+
+                    <strong>
+                        10 000 FCFA
+                    </strong>
+
+                    <button
+                        onclick="commander(
+                            'GENIE BLACK',
+                            'NOIR',
+                            '10 000 FCFA',
+                            'size-black'
+                        )"
+                    >
+                        Commander
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- =====================
+             PRODUIT 2 - WHITE
+        ====================== -->
+
+        <article class="product">
+
+            <div class="product-image">
+
+                <span class="badge">
+                    NEW
+                </span>
+
+                <img
+                    src="image/blanc.jpeg"
+                    alt="GENIE White T-Shirt"
+                >
+
+            </div>
+
+
+            <div class="product-info">
+
+                <p class="category">
+                    T-SHIRT
+                </p>
+
+                <h3>
+                    GENIE WHITE
+                </h3>
+
+                <p class="description">
+                    Design minimaliste.
+                </p>
+
+
+                <p class="size-title">
+                    Choisir une taille :
+                </p>
+
+                <div class="sizes">
+
+                    <label>
+                        <input type="radio" name="size-white" value="S">
+                        <span>S</span>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="size-white" value="M">
+                        <span>M</span>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="size-white" value="L">
+                        <span>L</span>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="size-white" value="XL">
+                        <span>XL</span>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="size-white" value="XXL">
+                        <span>XXL</span>
+                    </label>
+
+                </div>
+
+
+                <div class="product-bottom">
+
+                    <strong>
+                        10 000 FCFA
+                    </strong>
+
+                    <button
+                        onclick="commander(
+                            'GENIE WHITE',
+                            'BLANC',
+                            '10 000 FCFA',
+                            'size-white'
+                        )"
+                    >
+                        Commander
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- =====================
+             PRODUIT 3 - GREEN
+        ====================== -->
+
+        <article class="product">
+
+            <div class="product-image">
+
+                <span class="badge">
+                    NEW
+                </span>
+
+                <img
+                    src="image/vertt.jpeg"
+                    alt="GENIE Green T-Shirt"
+                >
+
+            </div>
+
+
+            <div class="product-info">
+
+                <p class="category">
+                    T-SHIRT
+                </p>
+
+                <h3>
+                    GENIE GREEN
+                </h3>
+
+                <p class="description">
+                    Une pièce inspirée de la culture urbaine.
+                </p>
+
+
+                <p class="size-title">
+                    Choisir une taille :
+                </p>
+
+                <div class="sizes">
+
+                    <label>
+                        <input type="radio" name="size-green" value="S">
+                        <span>S</span>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="size-green" value="M">
+                        <span>M</span>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="size-green" value="L">
+                        <span>L</span>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="size-green" value="XL">
+                        <span>XL</span>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="size-green" value="XXL">
+                        <span>XXL</span>
+                    </label>
+
+                </div>
+
+
+                <div class="product-bottom">
+
+                    <strong>
+                        10 000 FCFA
+                    </strong>
+
+                    <button
+                        onclick="commander(
+                            'GENIE GREEN',
+                            'VERT',
+                            '10 000 FCFA',
+                            'size-green'
+                        )"
+                    >
+                        Commander
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- =====================
+             PRODUIT 4 - RED
+        ====================== -->
+
+        <article class="product">
+
+            <div class="product-image">
+
+                <span class="badge">
+                    NEW
+                </span>
+
+                <img
+                    src="image/red.jpeg"
+                    alt="GENIE Red T-Shirt"
+                >
+
+            </div>
+
+
+            <div class="product-info">
+
+                <p class="category">
+                    T-SHIRT
+                </p>
+
+                <h3>
+                    GENIE RED
+                </h3>
+
+                <p class="description">
+                    Tissu épais premium.
+                </p>
+
+
+                <p class="size-title">
+                    Choisir une taille :
+                </p>
+
+                <div class="sizes">
+
+                    <label>
+                        <input type="radio" name="size-red" value="S">
+                        <span>S</span>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="size-red" value="M">
+                        <span>M</span>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="size-red" value="L">
+                        <span>L</span>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="size-red" value="XL">
+                        <span>XL</span>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="size-red" value="XXL">
+                        <span>XXL</span>
+                    </label>
+
+                </div>
+
+
+                <div class="product-bottom">
+
+                    <strong>
+                        10 000 FCFA
+                    </strong>
+
+                    <button
+                        onclick="commander(
+                            'GENIE RED',
+                            'ROUGE',
+                            '10 000 FCFA',
+                            'size-red'
+                        )"
+                    >
+                        Commander
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- =====================
+             PRODUIT 5 - BEIGE
+        ====================== -->
+
+        <article class="product">
+
+            <div class="product-image">
+
+                <span class="badge">
+                    NEW
+                </span>
+
+                <img
+                    src="image/beige.jpeg"
+                    alt="GENIE Beige T-Shirt"
+                >
+
+            </div>
+
+
+            <div class="product-info">
+
+                <p class="category">
+                    T-SHIRT
+                </p>
+
+                <h3>
+                    GENIE BEIGE
+                </h3>
+
+                <p class="description">
+                    Tissu épais premium.
+                </p>
+
+
+                <p class="size-title">
+                    Choisir une taille :
+                </p>
+
+                <div class="sizes">
+
+                    <label>
+                        <input type="radio" name="size-beige" value="S">
+                        <span>S</span>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="size-beige" value="M">
+                        <span>M</span>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="size-beige" value="L">
+                        <span>L</span>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="size-beige" value="XL">
+                        <span>XL</span>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="size-beige" value="XXL">
+                        <span>XXL</span>
+                    </label>
+
+                </div>
+
+
+                <div class="product-bottom">
+
+                    <strong>
+                        10 000 FCFA
+                    </strong>
+
+                    <button
+                        onclick="commander(
+                            'GENIE BEIGE',
+                            'BEIGE',
+                            '10 000 FCFA',
+                            'size-beige'
+                        )"
+                    >
+                        Commander
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- =====================
+             PRODUIT 6 - PURPLE
+        ====================== -->
+
+        <article class="product">
+
+            <div class="product-image">
+
+                <span class="badge">
+                    NEW
+                </span>
+
+                <img
+                    src="image/violet.jpeg"
+                    alt="GENIE Purple T-Shirt"
+                >
+
+            </div>
+
+
+            <div class="product-info">
+
+                <p class="category">
+                    T-SHIRT
+                </p>
+
+                <h3>
+                    GENIE PURPLE
+                </h3>
+
+                <p class="description">
+                    Tissu épais premium.
+                </p>
+
+
+                <p class="size-title">
+                    Choisir une taille :
+                </p>
+
+                <div class="sizes">
+
+                    <label>
+                        <input type="radio" name="size-purple" value="S">
+                        <span>S</span>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="size-purple" value="M">
+                        <span>M</span>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="size-purple" value="L">
+                        <span>L</span>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="size-purple" value="XL">
+                        <span>XL</span>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="size-purple" value="XXL">
+                        <span>XXL</span>
+                    </label>
+
+                </div>
+
+
+                <div class="product-bottom">
+
+                    <strong>
+                        10 000 FCFA
+                    </strong>
+
+                    <button
+                        onclick="commander(
+                            'GENIE PURPLE',
+                            'VIOLET',
+                            '10 000 FCFA',
+                            'size-purple'
+                        )"
+                    >
+                        Commander
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================
+     BANNER
+========================= -->
+
+<section class="quote">
+
+    <div>
+
+        <p>
+            GENIE
+        </p>
+
+        <h2>
+            WEAR YOUR<br>
+            IDENTITY.
+        </h2>
+
+        <span>
+            DAKAR — SENEGAL
+        </span>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================
+     CONTACT
+========================= -->
+
+<section class="contact" id="contact">
+
+    <div class="section-title">
+
+        <p>
+            CONTACT
+        </p>
+
+        <h2>
+            Restons connectés
+        </h2>
+
+    </div>
+
+
+    <p class="contact-text">
+
+        Une question sur une taille, une commande ou une livraison ?
+        Contacte-nous directement.
+
+    </p>
+
+
+    <div class="contact-buttons">
+
+        <a
+            href="https://snapchat.com/t/PHt0b8eQ"
+            target="_blank"
+        >
+            Snapchat
+        </a>
+
+
+        <a
+            href="https://www.instagram.com/genie_officiel.1?igsh=bGM1Mml5MTAweGF3&utm_source=qr"
+            target="_blank"
+        >
+            Instagram
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================
+     FOOTER
+========================= -->
+
+<footer>
+
+    <div class="footer-logo">
+
+        GENIE<span>.</span>
+
+    </div>
+
+    <p>
+        ©️ 2026 GENIE — Streetwear Sénégal
+    </p>
+
+</footer>
+
+
+
+<!-- =========================
+     JAVASCRIPT
+========================= -->
+
+<script src="script.js"></script>
+
+</body>
+</html>
